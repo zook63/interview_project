@@ -1,0 +1,152 @@
+/* src/OrderSummary.css */
+.order-container {
+    border: 1px solid #e0e0e0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 1500px;
+  }
+  
+  .order-header {
+    background-color: #eeeeee;
+    width: 98%;
+    height: 30px;
+    border-top-left-radius: 5px;   
+    border-top-right-radius: 5px; 
+    padding: 1%;
+  }
+
+  .flex-box{
+    display: flex;
+  }
+
+  .sender{
+    color: #1976d2;
+  }
+
+  .details{
+    color: #1976d2;
+  }
+
+  .order-child{
+    margin-right: 110px;
+    margin-left: 10px;
+    text-align: left;
+    width: 80px;
+    font-size: 10px;
+    flex: 1;
+    width: 100px;
+  
+  }
+
+
+
+  .last-child{
+    margin-left: 700px;
+    text-align: right;
+    width: 100px;
+    font-size: 12px;
+  }
+  
+  .order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   
+  }
+
+  .order-detail-border{
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .order-details img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .order-details div {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .product-name{
+    font-size: 30px;
+  }
+
+  .product-quantity{
+        margin-top: 10px;
+        color: grey;
+  }
+
+  .product-price{
+    color: grey;
+    
+  }
+
+  .write-review{
+    margin-left: 88%;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray; /* Light gray border */
+    border-radius: 2px;
+    background-color: white; /* Set background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.3s; /* Smooth transition for hover effects */
+  }
+
+  @media (max-width: 400px){
+    .order-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+
+    .order-header {
+        height: 60px;
+    }
+
+    .order-child{
+        margin-left: 5px;
+        margin-right: 5px;
+        
+        text-align: left;
+        width: 80px;
+        font-size: 10px;
+        flex: 1;
+        width: 80px;
+      
+      }
+    
+    
+      .last-child{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: left;
+        width: 80px;
+        flex: 1;
+        font-size: 10px;
+      }
+
+    .product-name{
+        font-size: 20px;
+        
+    }
+
+    .order-details div {
+        flex: 1;
+        margin-left: 10px;
+      }
+
+      .write-review{
+        margin-left: 30%;
+       
+      }
+    
+}
+  
+  
+  
